@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>TRIDcode test</title>
+		<link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" />
+	</head>
+	<body>
+		<div class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="#">TRIDcode</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarColor02">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#what-is-it">Что это <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#example">Пример кода</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#license">Лицензия</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#developer">Разработчик</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="jumbotron" id="what-is-it">
+				<h1 class="display-3">TRIDcode</h1>
+				<p class="lead">Простой алгоритм генерации цветового кода на основе 64-символьных хешей транзакций и блоков криптовалют.</p>
+				</p>
+			</div>
+			<center>
+				<h3 id="example">Пример</h3>
+				<p>Пример хеша</p>
+				<div style="max-width: 400px; text-align: left;">
+					<code>1ac1d825af09775bccda0971efdc37c3945b7c3671a2e558bbb10d18cdbe177b</code>
+				</div>
+				<p>Получаем для него код:</p>
+				<img src="render_code.php" style="border-radius: 5px;"/>
+				<br/><br/>
+				<p>Или в виде кругов:</p>
+				<img src="render_code.php?form=circle" style="border-radius: 5px;"/>
+				
+				<hr style="margin-bottom: 50px;"/>
+				<h3 id="license">Лицензия</h3>
+				<p>MIT</p>
+				<hr style="margin-bottom: 50px;"/>
+				<h3 id="developer">Разработчик</h3>
+				<div style="max-width: 400px; text-align: left;">
+					<ul>
+						<li><a href="https://github.com/Sagleft" target="_blank">Github/Sagleft</a></li>
+						<li><a href="https://vk.com/Sagleft" target="_blank">vk/Sagleft</a></li>
+						<li><a href="https://twitter.com/SagleftReal" target="_blank">Twitter</a></li>
+					</ul>
+					<p>Support</p>
+					<ul>
+						<li>MFCoin: Mv7vb6eWskJd2xtfB1U97CfKEZxML65Me4</li>
+					</ul>
+				</div>
+			</center>
+			<br/>
+		</div>
+	</body>
+</html>
